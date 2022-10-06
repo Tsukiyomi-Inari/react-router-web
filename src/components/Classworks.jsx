@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Classworks() {
   return (
     <div className="about">
       <div class="container">
@@ -27,4 +27,4 @@ function About() {
   );
 }
 
-export default About;
+export default Classworks;

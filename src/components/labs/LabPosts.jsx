@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Lab_Posts() {
+//*****  Collection of all labs  *****/
+function LabPosts() {
   return (
     <div className="home">
       <div class="container">
@@ -30,4 +31,4 @@ function Lab_Posts() {
   );
 }
 
-export default Lab_Posts;
+export default LabPosts;
