@@ -1,6 +1,13 @@
+
+
+
+
 body {
+  background: url(./components/assets/pixel-background.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +19,20 @@ code {
     monospace;
 }
 
-.nav-color{
-  background: #849dc9 !important;
+nav{
+  background: rgb(132, 157, 201) !important;
+}
 
+
+a::after{
+  color: #227171 ! important;
+}
+
+
+a:hover{
+  color:#a74b9a !important;
+}
+
+:any-link{
+  color: #976ae6dd;
 }

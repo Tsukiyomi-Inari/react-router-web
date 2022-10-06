@@ -1,31 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BlueWindow from "../assets/BlueWindow";
 
 //*****  Collection of all labs  *****/
 function LabPosts() {
   return (
     <div className="home">
       <div class="container">
-        <Link to="/blog/this-is-a-post-title">
+        
           <div class="row align-items-center my-5">
-            <div class="col-lg-7">
-              <img
-                class="img-fluid rounded mb-4 mb-lg-0"
-                src="http://placehold.it/900x400"
-                alt=""
-              />
+            <div class="col-lg-6">
+         <BlueWindow />
             </div>
             <div class="col-lg-5">
-              <h1 class="font-weight-light">This is a post title</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </p>
+              <ul class="list-group-flush text-center">
+              <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 1</h2></Link><small>Mobile device investigation</small></li>
+               <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 2</h2></Link><small>Mobile device investigation</small></li>
+                <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 3</h2></Link><small>Mobile device investigation</small></li>
+              </ul>
+              
             </div>
           </div>
-        </Link>
+        
       </div>
     </div>
   );
