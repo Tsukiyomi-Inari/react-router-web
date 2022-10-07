@@ -1,26 +1,28 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import LabData from "LabData";
 
 /*** Make into a template for creating each page ***/
-
-function Post() {
-  let { postSlug } = useParams();
-
-  useEffect(() => {
-    // Fetch post using the postSlug
-  }, [postSlug]);
+const Post = () => {
+  const {id} = useParams();
+  const lab = LabData.find((lab) => lab.id === id);
+  const {title, description , pdf, link, linkTitle } = lab;
 
   return (
-    <div className="home">
       <div class="container">
-        <h1 className="mt-5">This is a Post Title</h1>
-        <h6 className="mb-5">The post slug is, {postSlug}</h6>
-        <p>
-          dfgdfg
-        </p>
+        <h1 className="mt-5">{ title}</h1>
+        <p>{description}</p>
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js">
+        <Viewer fileUrl={pdf} />
+        </Worker>
+        <Link to={link}>{linkTitle}</Link>
       </div>
-    </div>
-  );
-}
+  );  
+};
+
+
 
 export default Post;

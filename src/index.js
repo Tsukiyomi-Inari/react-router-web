@@ -22,8 +22,8 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/classworks" element={<Classworks />} />
       <Route path="/labs" element={<Labs />}>
-        <Route path="" element={<LabPosts />} />
-        <Route path=":postSlug" element={<Post />} />
+        <Route path=" " element={<LabPosts />} />
+        <Route path="/labs/:id" element={<Post />} />
       </Route>
       <Route path="/project" element={<Project />} />
     </Routes>
