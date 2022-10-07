@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BlueWindow from "../assets/BlueWindow";
+import {labposts} from "./LabData";
+
+const labList = labposts.map((lab)=>
+  <li class="list-group-item row-item" key={lab.id}><Link to={lab.link}><h2 class="font-weight-light">{lab.title}</h2></Link><small>{lab.description}</small></li>
+);
+
 
 //*****  Collection of all lab links  *****/
 function LabPosts() {
@@ -14,9 +20,7 @@ function LabPosts() {
             </div>
             <div class="col-lg-5">
               <ul class="list-group-flush text-center">
-              <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 1</h2></Link><small>Mobile device investigation</small></li>
-               <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 2</h2></Link><small>Mobile device investigation</small></li>
-                <li class="list-group-item row-item"><Link to="/blog/this-is-a-post-title"><h2 class="font-weight-light">LAB 3</h2></Link><small>Mobile device investigation</small></li>
+              {labList}
               </ul>
               
             </div>
