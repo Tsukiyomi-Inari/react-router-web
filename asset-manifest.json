@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-router-web/static/css/main.ae5a2c13.css",
+    "main.js": "/react-router-web/static/js/main.def5ca87.js",
+    "static/media/pixel-background.svg": "/react-router-web/static/media/pixel-background.52b93e7c603bc1d8879e.svg",
+    "static/media/blue-window.svg": "/react-router-web/static/media/blue-window.22fbfd96386944a31b7bcdab86d6f212.svg",
+    "index.html": "/react-router-web/index.html",
+    "main.ae5a2c13.css.map": "/react-router-web/static/css/main.ae5a2c13.css.map",
+    "main.def5ca87.js.map": "/react-router-web/static/js/main.def5ca87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5a2c13.css",
+    "static/js/main.def5ca87.js"
+  ]
+}
