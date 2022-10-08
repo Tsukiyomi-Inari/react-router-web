@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import BlueWindow from "../assets/BlueWindow";
 
 
-
 //*****  Collection of all lab links  *****/
 function LabPosts() {
   return (
