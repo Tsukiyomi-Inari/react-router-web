@@ -1,0 +1,38 @@
+
+
+
+
+body {
+  background: url(./components/assets/pixel-background.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  background: rgb(132, 157, 201) !important;
+}
+
+
+a::after{
+  color: #227171 ! important;
+}
+
+
+a:hover{
+  color:#a74b9a !important;
+}
+
+:any-link{
+  color: #976ae6dd;
+}
