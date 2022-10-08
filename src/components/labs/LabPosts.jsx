@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BlueWindow from "../assets/BlueWindow";
-import {labposts} from "./LabData";
+import {labposts} from "./data";
 
 const labList = labposts.map((lab)=>
   <li class="list-group-item row-item" key={lab.id}><Link to={lab.link}><h2 class="font-weight-light">{lab.title}</h2></Link><small>{lab.description}</small></li>
