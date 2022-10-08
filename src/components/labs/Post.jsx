@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
-import LabData from "LabData";
+import LabData from "./data";
 
 /*** Make into a template for creating each page ***/
 const Post = () => {

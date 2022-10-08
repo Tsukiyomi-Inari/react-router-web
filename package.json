@@ -1,6 +1,6 @@
 {
-  "name": "mode_4201-labs",
-  "homepage": "http://tsukiyomi-inari.github.com/mode_4201-labs",
+  "name": "MODE_4201-WEB",
+  "homepage": "https://tsukiyomi-inari.github.io/MODE_4201-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
