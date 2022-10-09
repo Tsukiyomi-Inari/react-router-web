@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/react-router-web/static/css/main.59d146c5.css",
-    "main.js": "/react-router-web/static/js/main.43af97bc.js",
+    "main.js": "/react-router-web/static/js/main.65e56628.js",
+    "static/media/blue_window-main.svg": "/react-router-web/static/media/blue_window-main.b060a20d935d929b7d522f82e4008d3e.svg",
+    "static/media/blue-window-project.svg": "/react-router-web/static/media/blue-window-project.fe5e9f8b40a9086ae015ec03bff8f231.svg",
     "static/media/dev-keeb.svg": "/react-router-web/static/media/dev-keeb.6c34e3e3804bda1addd5b86c5b1bf295.svg",
     "static/media/pixel-background.svg": "/react-router-web/static/media/pixel-background.52b93e7c603bc1d8879e.svg",
-    "static/media/blue-window.svg": "/react-router-web/static/media/blue-window.22fbfd96386944a31b7bcdab86d6f212.svg",
+    "static/media/blue-window-class.svg": "/react-router-web/static/media/blue-window-class.ce968df3f3cd1d65d46778c466169a0f.svg",
+    "static/media/blue-window-labs.svg": "/react-router-web/static/media/blue-window-labs.3f5f858ef474d666c111f64ce8864132.svg",
     "index.html": "/react-router-web/index.html",
     "main.59d146c5.css.map": "/react-router-web/static/css/main.59d146c5.css.map",
-    "main.43af97bc.js.map": "/react-router-web/static/js/main.43af97bc.js.map"
+    "main.65e56628.js.map": "/react-router-web/static/js/main.65e56628.js.map"
   },
   "entrypoints": [
     "static/css/main.59d146c5.css",
-    "static/js/main.43af97bc.js"
+    "static/js/main.65e56628.js"
   ]
 }
