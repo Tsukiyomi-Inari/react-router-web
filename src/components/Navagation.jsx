@@ -10,7 +10,7 @@ function Navigation() {
     <div className="navigation bg-info" >
       <nav className="navbar navbar-expand navbar-dark ">
         <div className="container">
-          <NavLink className="navbar-brand" to="/home">
+          <NavLink className="navbar-brand" to="/">
             Kat MODE4201 <FontAwesomeIcon icon={faCompactDisc} />
           </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@ function Navigation() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/home">
+                <NavLink className="nav-link active" to="/">
                   Home
                   <span className="sr-only">(current)</span>
                 </NavLink>
