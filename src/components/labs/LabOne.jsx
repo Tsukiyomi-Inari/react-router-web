@@ -13,7 +13,7 @@ function LabOne() {
           <div className="col-lg-5 text-center">
          <h1><span className="kat">Lab 1</span></h1>
       <p><strong>Description:</strong> ::comming soon::</p>
-      <a href="Lab1-MODE4201-Bellman.pdf" target="_blank" rel="noreferrer">View Lab 1 Report</a>
+      <a href="https://github.com/Tsukiyomi-Inari/react-router-web/raw/master/src/components/labs/Lab1-MODE4201-Bellman.pdf" target="_blank" rel="noreferrer">Download Lab 1 Report</a>
     
           </div>
            
