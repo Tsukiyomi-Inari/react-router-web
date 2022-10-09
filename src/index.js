@@ -18,7 +18,7 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router >
+  <Router  basename="/">
   <Navigation />
     <Routes>
       <Route path="/home" element={<Home />} />

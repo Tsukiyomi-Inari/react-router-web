@@ -13,7 +13,7 @@ function LabOne() {
           <div className="col-lg-5">
          <h2>Lab 1</h2>
       <p><strong>Description:</strong> ::comming soon::</p>
-      <a href="Lab 1 -MODE4201-Bellman.pdf" target="_blank" type="file">View Lab 1 Report</a>
+      <a href="Lab1-MODE4201-Bellman.pdf" target="_blank" rel="noreferrer">View Lab 1 Report</a>
     
           </div>
            
