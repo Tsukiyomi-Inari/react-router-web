@@ -1,5 +1,5 @@
 import React from "react";
-import BlueWindow from "./assets/BlueWindow";
+import BlueWindowClass from "./assets/BlueWindowClass";
 
 function Classworks() {
   return (
@@ -7,7 +7,7 @@ function Classworks() {
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-            <BlueWindow />
+            <BlueWindowClass />
           </div>
           <div className="col-lg-5">
             <h1 className="font-weight-light kat"><span>Classworks</span></h1>

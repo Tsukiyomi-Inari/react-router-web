@@ -1,5 +1,5 @@
 import React from "react";
-import BlueWindow from "./assets/BlueWindow.jsx";
+import BlueWindowProject from "./assets/BlueWindowProject";
 
 function Project() {
   return (
@@ -7,7 +7,7 @@ function Project() {
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-        <BlueWindow />
+        <BlueWindowProject />
           </div>
           <div className="col-lg-5 text-center">
             <h1 className="font-weight-light"><span className="kat">Project</span></h1>

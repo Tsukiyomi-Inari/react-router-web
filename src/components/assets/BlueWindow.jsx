@@ -1,5 +1,5 @@
 import React from "react";
-import {ReactComponent as BlueWindowsvg} from "./blue-window.svg";
+import {ReactComponent as BlueWindowsvg} from "./blue-window-main.svg";
 
 
 const BlueWindow = () => {

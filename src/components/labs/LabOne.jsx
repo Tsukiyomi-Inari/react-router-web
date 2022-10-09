@@ -1,5 +1,5 @@
 import React from "react";
-import BlueWindow from "../assets/BlueWindow";
+import BlueWindowLabs from "../assets/BlueWindowLabs";
 
 function LabOne() {
 
@@ -8,7 +8,7 @@ function LabOne() {
       <div class="container">
         <div className="row  my-5">
           <div className="col-lg-6">
-          <BlueWindow />
+          <BlueWindowLabs />
           </div>
           <div className="col-lg-5 text-center">
          <h1><span className="kat">Lab 1</span></h1>
