@@ -26,8 +26,7 @@ ReactDOM.render(
       <Route path="/classworks" element={<Classworks />} />
       <Route path="/labs" element={<Labs />}>
           <Route  path="" element={<LabPosts />} />
-          <Route  path=":postSlug" element={<Post />} />
-      </Route>
+                </Route>
       <Route path="/labs/lab-1" element={<LabOne />} />
       <Route path="/labs/lab-2" element={<LabTwo />} />
       <Route path="/project" element={<Project />} />
