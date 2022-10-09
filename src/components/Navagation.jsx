@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCompactDisc } from '@fortawesome/fontawesome-free-solid';
+import Icon from "./assets/Icon";
 
 
 
@@ -11,7 +10,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark ">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            MODE4201 <a href="index.html"> <img src="./assets/dev-keeb.svg" id="logo" alt="brand"/></a>
+     <a href="index.html"> <Icon className="logo"/></a>
           </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

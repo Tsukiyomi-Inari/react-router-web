@@ -153,12 +153,12 @@ nav ul li a:visited{
     /* color: #C58DF4; */
 }
 
-#logo{
+.logo{
     justify-self: center;
     margin-top: .10rem;
     margin-left: .45rem;
-    height: 6.5vh;
-    width: 6.5vw;
+    height: 5vh;
+    width: 5vw;
 }
 
 #footer{
