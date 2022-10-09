@@ -11,7 +11,7 @@ function Navigation() {
       <nav className="navbar navbar-expand navbar-dark ">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Kat MODE4201 <FontAwesomeIcon icon={faCompactDisc} />
+            MODE4201 <a href="index.html"> <img src="./assets/dev-keeb.svg" id="logo" alt="brand"/></a>
           </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
