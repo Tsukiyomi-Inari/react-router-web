@@ -9,8 +9,8 @@ function Project() {
           <div className="col-lg-7">
         <BlueWindow />
           </div>
-          <div className="col-lg-5">
-            <h1 className="font-weight-light">Project</h1>
+          <div className="col-lg-5 text-center">
+            <h1 className="font-weight-light"><span className="kat">Project</span></h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

@@ -10,8 +10,8 @@ function LabOne() {
           <div className="col-lg-6">
           <BlueWindow />
           </div>
-          <div className="col-lg-5">
-         <h2>Lab 1</h2>
+          <div className="col-lg-5 text-center">
+         <h1><span className="kat">Lab 1</span></h1>
       <p><strong>Description:</strong> ::comming soon::</p>
       <a href="Lab1-MODE4201-Bellman.pdf" target="_blank" rel="noreferrer">View Lab 1 Report</a>
     

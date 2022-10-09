@@ -10,7 +10,7 @@ function Classworks() {
             <BlueWindow />
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Classworks</h1>
+            <h1 className="font-weight-light kat"><span>Classworks</span></h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
