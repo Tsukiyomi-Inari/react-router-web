@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router , Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
@@ -13,24 +13,24 @@ import {
   Labs,
   LabPosts,
   Post,
-  Lab1,
-  Lab2,
-
+  LabOne,
+  LabTwo
 } from "./components";
 
 ReactDOM.render(
-  <Router basename="/">
-    <Navigation />
+  <Router >
+  <Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route path="/classworks" element={<Classworks />} />
       <Route path="/labs" element={<Labs />}>
-        <Route path=" " element={<LabPosts />} />
-       <Route path=":postSlug" element={<Post />} />
-        <Route path=" " element={<Lab1 />} />
-        <Route path=" " element={<Lab2 />} /> 
+          <Route  path="" element={<LabPosts />} />
+          <Route  path=":postSlug" element={<Post />} />
       </Route>
+      <Route path="/labs/lab-1" element={<LabOne />} />
+      <Route path="/labs/lab-2" element={<LabTwo />} />
       <Route path="/project" element={<Project />} />
+    
     </Routes>
     <Footer />
   </Router>,

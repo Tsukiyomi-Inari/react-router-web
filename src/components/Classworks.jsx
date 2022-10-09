@@ -3,14 +3,14 @@ import BlueWindow from "./assets/BlueWindow";
 
 function Classworks() {
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+    <div className="classworks">
+      <div className="container">
+        <div className="row align-items-center my-5">
+          <div className="col-lg-7">
             <BlueWindow />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Classworks</h1>
+          <div className="col-lg-5">
+            <h1 className="font-weight-light">Classworks</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

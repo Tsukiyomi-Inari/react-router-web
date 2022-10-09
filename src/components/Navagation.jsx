@@ -13,10 +13,10 @@ function Navigation() {
           <NavLink className="navbar-brand" to="/">
             Kat MODE4201 <FontAwesomeIcon icon={faCompactDisc} />
           </NavLink>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
          </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link active" to="/">
@@ -28,8 +28,14 @@ function Navigation() {
                 <NavLink className="nav-link active" to="/classworks">
                   Classwork
                 </NavLink>
-              </li>          
-            <li className="nav-item"><NavLink className="nav-link active" to="/labs">Labs</NavLink></li>
+              </li>  
+              <li className="nav-item dropdown">
+                <a className="dropdown-toggle nav-link active nav" href="/#" role="button" data-bs-toggle="dropdown">Labs</a>
+                <ul className="dropdown-menu">
+            <li className="dropdown-item"><NavLink className="dropdown-item" to="/labs/lab-1">Lab-1</NavLink></li>
+             <li className="nav-item"><NavLink className="dropdown-item" to="/labs/lab-2">Lab-2</NavLink></li>
+              </ul>
+                </li>        
               <li className="nav-item"><NavLink className="nav-link active" to="/project">   Project
                 </NavLink>
               </li>

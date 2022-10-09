@@ -1,11 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
+
 function Labs() {
   return (
-    <div className="home">
-      <div class="container">
+    <div className="labs">
+      <div className="container">
         <Outlet />
+         
       </div>
     </div>
   );
