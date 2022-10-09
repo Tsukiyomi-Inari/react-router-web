@@ -16,6 +16,7 @@ function Home() {
             <p >
               I am Katherine Bellman, studying Computer Programming and Analysis at Durham College in Oshawa. As an Alumni of OCAD University, I apply creative solutions to computational problems and design attractive user interfaces through colour theory practices.
             </p>
+            <p>This website is for sharing my work from MODE4201 - Mobile Development at Durham College. </p>
           </div>
         </div>
       </div>
