@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-router-web/static/css/main.59d146c5.css",
-    "main.js": "/react-router-web/static/js/main.65e56628.js",
+    "main.js": "/react-router-web/static/js/main.b67824e7.js",
     "static/media/blue_window-main.svg": "/react-router-web/static/media/blue_window-main.b060a20d935d929b7d522f82e4008d3e.svg",
     "static/media/blue-window-project.svg": "/react-router-web/static/media/blue-window-project.fe5e9f8b40a9086ae015ec03bff8f231.svg",
     "static/media/dev-keeb.svg": "/react-router-web/static/media/dev-keeb.6c34e3e3804bda1addd5b86c5b1bf295.svg",
@@ -10,10 +10,10 @@
     "static/media/blue-window-labs.svg": "/react-router-web/static/media/blue-window-labs.3f5f858ef474d666c111f64ce8864132.svg",
     "index.html": "/react-router-web/index.html",
     "main.59d146c5.css.map": "/react-router-web/static/css/main.59d146c5.css.map",
-    "main.65e56628.js.map": "/react-router-web/static/js/main.65e56628.js.map"
+    "main.b67824e7.js.map": "/react-router-web/static/js/main.b67824e7.js.map"
   },
   "entrypoints": [
     "static/css/main.59d146c5.css",
-    "static/js/main.65e56628.js"
+    "static/js/main.b67824e7.js"
   ]
 }
