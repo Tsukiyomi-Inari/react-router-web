@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@200;500;900&family=Press+Start+2P&display=swap');
 
+
+
 body {
   background: url(./components/assets/pixel-background.svg);
   background-repeat:no-repeat;
@@ -10,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -128,8 +131,14 @@ span{
 #nav{
     background-color: rgba(233, 223, 245, 0.26);
     width: 100%; 
+    
 }
 
+
+
+.navbar-brand{
+   text-shadow: #b93a97 2px 2px;
+}
 
 nav ul li{
     display: inline-block;
@@ -187,4 +196,15 @@ nav ul li a:visited{
 
 .accordion-color{
     background-color: #A4A6F6;
+}
+
+.blueWindow{
+    position:fixed;
+    @media only screen and (hover:none) and (pointer:coarse){
+        display: none !important;
+    }
+
+    @media (max-width: 600px){
+        display: none !important; 
+    }
 }

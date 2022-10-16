@@ -6,21 +6,20 @@ import Icon from "./assets/Icon";
 
 function Navigation() {
   return (
-    <div className="navigation bg-info" >
-      <nav className="navbar navbar-expand navbar-dark ">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/">
-      <Icon className="logo"/>
+    <div className="navigation bg-info sticky-top " >
+      <nav className="navbar navbar-expand navbar-dark  mb-5 ">
+        <div className="container-fluid ">
+          <NavLink className="navbar-brand d-inline-flex fs-6 " to="/">
+      <Icon className="logo align-baseline "/>Mobile Development: MODE4201
           </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span> 
          </button>
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link active" to="/">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                  <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
               <li className="nav-item">

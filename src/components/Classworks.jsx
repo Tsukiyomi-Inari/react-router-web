@@ -5,14 +5,14 @@ function Classworks() {
   return (
     <div className="classworks">
       <div className="container">
-        <div className="row align-items-center my-5">
-          <div className="col-lg-7">
+        <div className="row  my-5 ">
+          <div className="col-lg-7 align-self-start">
             <BlueWindowClass />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 text-center ">
             <h1 className="font-weight-light kat"><span>Classworks</span></h1>
             <br/>
-            <div className="accordion accordion-color" id="cWorkAcord">
+            <div className="accordion accordion-color " id="cWorkAcord">
               <div className="accordion-item" id="classwork1">
               <h6 className="accordion-header" id="headingOne">
                 <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

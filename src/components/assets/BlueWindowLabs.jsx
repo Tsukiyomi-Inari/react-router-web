@@ -4,7 +4,7 @@ import {ReactComponent as BlueWindowLabssvg} from "./blue-window-labs.svg";
 
 const BlueWindowLabs = () => {
   return (
-    <div>
+    <div className="blueWindow">
       <BlueWindowLabssvg />
     </div>
   );
