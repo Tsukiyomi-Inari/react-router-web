@@ -3,9 +3,9 @@
 
 
 body {
-  background: url(./components/assets/pixel-background.svg);
-  background-repeat:no-repeat;
+  background: url(./components/assets/pixel-background.svg) no-repeat fixed center center;
   background-size:cover;
+  background-position: fixed;
   margin: 0;
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
