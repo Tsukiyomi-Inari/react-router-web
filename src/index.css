@@ -32,7 +32,7 @@ a:hover{
 }
 
 :any-link{
-  color: #976ae6dd;
+  color: #6a40b2dd;
 }
 
 *{
@@ -80,7 +80,7 @@ h1 span{
 
 span{
     color: #A6F;
-    text-shadow: #5982bb 2px 1px;
+    text-shadow: #5982bb 1.5px 1px;
 }
 
 .kat h1{
@@ -178,4 +178,13 @@ nav ul li a:visited{
 .dropdown-item.active, .dropdown-item:active{
   background-color: rgb(132, 157, 201) !important;
   color: #a6f2dc;
+}
+
+
+.reference-item:active{
+    color: #30314f;
+}
+
+.accordion-color{
+    background-color: #A4A6F6;
 }
