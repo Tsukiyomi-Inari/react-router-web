@@ -11,11 +11,11 @@ function Classworks() {
           </div>
           <div className="col-lg-5">
             <h1 className="font-weight-light kat"><span>Classworks</span></h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            <br/>
+              <h3>Classwork-1</h3>
+              <p>
+              <a href="https://github.com/Tsukiyomi-Inari/react-router-web/raw/master/src/components/assets/ClassWork1-Bellman.apk"target="_blank" rel="noreferrer">Download the APK</a>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/KjxjRHhFJD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </p>
           </div>
         </div>
