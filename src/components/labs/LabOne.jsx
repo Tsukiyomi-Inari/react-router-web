@@ -10,7 +10,7 @@ function LabOne() {
           <div className="col-lg-6 align-self-start">
           <BlueWindowLabs />
           </div>
-          <div className="col-lg-5  ">
+          <div className="col-lg-5 ">
          <h1 className="text-center"><span className="kat ">Lab 1</span></h1>
       <p className="text-center"><strong>Description:</strong><a href="https://github.com/Tsukiyomi-Inari/react-router-web/raw/master/src/components/labs/Lab1-MODE4201-Bellman.pdf" target="_blank" rel="noreferrer">Download Lab 1 Report</a> ::comming soon::</p>
       <br/>
@@ -31,7 +31,7 @@ function LabOne() {
 </p>
       <div>
         <strong className="text-center">References</strong> <br/> 
-        <div className="">
+        <div className="text-sm-start text-break">
         <p> J. (2003, Sep 15). A phone with a history. New Statesman, 16, R6-R7. Retrieved from http://search.proquest.com.dproxy.library.dc-uoit.ca/magazines/phone-with-history/docview/224365213/se-2.
 Buy Galaxy A70 128GB online at Best Price | Samsung Singapore. (2021, May 10). Samsung Sg. Retrieved September 15, 2022, from https://www.samsung.com/sg/smartphones/galaxy-a/galaxy-a70-blue-128gb-sm-a705mzbwxsp/buy/ .</p>
 <p>Films Media Group. (2015, November 6). History of the Mobile Phone [Documentary Film]. Films On Demand; Retreived. https://fod.infobase.com/PortalPlaylists.aspx?wID=102530&xtid=9420 .
