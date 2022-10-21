@@ -39,9 +39,17 @@ function Classworks() {
             </div>
 
             <div className="accordion-item" >
-              <h6 className="accordion-header" id="headingTwo"> <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">2-[comming soon]</button></h6>
+              <h6 className="accordion-header" id="headingTwo"> <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">2-First App: MIT App Inovator</button></h6>
               <div id="collapseTwo" className="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#cWorkAcord">
-              <p className="accordion-body">Comming soon</p>
+              <p className="accordion-body">
+                 A simple Pomodoro app that first runs a 25 minute timer for focused work time. Then will trigger the second timer to run for 5 minutes that make up the break. <br/>
+                <a href="https://github.com/Tsukiyomi-Inari/react-router-web/raw/master/src/components/assets/ClassWork1-Bellman.apk"target="_blank" rel="noreferrer">Download the APK</a>
+              <iframe width="400" height="215" src="https://www.youtube.com/embed/KjxjRHhFJD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <ul className="reference-group">
+              <span><strong>Referenced Resources:</strong></span>
+                <li><a href="https://puravidaapps.com/snippets.php#2leadingZeros" target="_blank" rel="noreferrer">App Inventory Code Snippets |Pura Vida Apps :  How to get leading zeros in App Inventor</a></li>
+                </ul>
+              </p>
               </div>
             </div>
             </div>
